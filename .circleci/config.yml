@@ -1088,6 +1088,7 @@ jobs:
           determined-common: true
           determined-cli: true
           determined: true
+          determined-deploy: true
           extra-requirements-file: "e2e_tests/tests/requirements.txt"
           executor: determinedai/cimg-base:stable
       - setup-gke-cluster:
